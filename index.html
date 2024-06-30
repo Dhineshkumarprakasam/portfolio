@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data/boy.png">
+</head>
+<body>
+    
+    <nav class="header">
+        <div class="tab">
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <h1 class="heading">Portfolio</h1>
+            <div class="nav-links" id="nav-links">
+                <button class="close-btn" id="close-btn">&times;</button>
+                <ul>
+                    <li class="ta"><a href="index.html">Home</a></li>
+                    <li class="ta"><a href="about.html">About</a></li>
+                    <li class="ta"><a href="skills.html">Skills</a></li>
+                    <li class="ta"><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="content">
+
+        <div class="text">
+            <h1 class="l1">Hi I'm</1>
+            <h1 class="l2">Dhinesh Kumar</h1>
+            <h4 class="l3-a">And I'm a <span class="l3-b" id="changing-text">Data Scientist</span></h4>
+            <div class="sites">
+                <a href="https://github.com/Dhineshkumarprakasam"><img class="logo" src="data/GitHub.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/dhineshkumar-prakasam-a7454b251/"><img class="logo" src="data/LinkedIn.png" alt=""></a>
+                <a href="https://www.reddit.com/user/Dhineshkumarprakasam/"><img class="logo" src="data/Reddit.png" alt=""></a>
+                <a href="https://leetcode.com/u/dhineshkumarprakasam/"><img class="logo" src="data/Source Code.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="profile">
+            <img src="data/profile.png" alt="">
+            <a href="data/dhinesh_resume.pdf" ><button class="resume"><h1>Resume</h1></button></a>
+        </div> 
+        
+        <div class="sites-under">
+            <a href="https://github.com/Dhineshkumarprakasam"><img class="logo" src="data/GitHub.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/dhineshkumar-prakasam-a7454b251/"><img class="logo" src="data/LinkedIn.png" alt=""></a>
+            <a href="https://www.reddit.com/user/Dhineshkumarprakasam/"><img class="logo" src="data/Reddit.png" alt=""></a>
+            <a href="https://leetcode.com/u/dhineshkumarprakasam/"><img class="logo" src="data/Source Code.png" alt=""></a>
+        </div>
+    </div>
+    
+    <marquee class="desktop" behavior="alternate">&copy; Designed and Developed By <span style="color:#d5abfc;">Dhinesh kumar</span></marquee>
+    <marquee class="phone">&copy; Designed and Developed By <span style="color:#d5abfc;">Dhinesh kumar</span></marquee>
+
+    
+    <script>
+        const texts = ["Data Scientist","Programmer","Web Developer"];
+        let count = 0;
+        setInterval(() => {
+            document.getElementById('changing-text').textContent = texts[count % texts.length];
+            count++;
+        }, 2000);
+
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.toggle('show');
+        });
+
+        document.getElementById('close-btn').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.remove('show');
+        });
+
+        document.getElementById('content').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.remove('show');
+        });
+    </script>
+
+</body>
+</html>

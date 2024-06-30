@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="data/boy.png" />
+  </head>
+  <body>
+    <nav class="header">
+      <div class="tab">
+          <button class="menu-toggle" id="menu-toggle">☰</button>
+          <h1 class="heading">Portfolio</h1>
+          <div class="nav-links" id="nav-links">
+              <button class="close-btn" id="close-btn">&times;</button>
+              <ul>
+                  <li class="ta"><a href="index.html">Home</a></li>
+                  <li class="ta"><a href="about.html">About</a></li>
+                  <li class="ta"><a href="skills.html">Skills</a></li>
+                  <li class="ta"><a href="projects.html">Projects</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <div class="content">
+      <h2 class="skill-title">Programming Languages</h2>
+      <center>
+        <div class="content-element">
+          <div class="element">
+            <img class="logo" src="data/Python.png" alt="python-logo">
+            <h4 class="title-text">Python</h4>
+          </div>
+          
+          <div class="element">
+            <img class="logo" src="data/C++.png" alt="cpp-logo">
+            <h4 class="title-text">C++</h4>
+          </div>
+  
+          <div class="element">
+            <img class="logo" src="data/C Programming.png" alt="c-logo">
+            <h4 class="title-text">C</h4>
+          </div>
+  
+          <div class="element">
+            <img class="logo" src="data/Java.png" alt="Java-logo">
+            <h4 class="title-text">Java</h4>
+          </div>
+        </div>
+      </center>
+      
+      
+      <h2 class="skill-title">Web Development</h2>
+      <center>
+        <div class="content-element">
+          <div class="element">
+            <img class="logo" src="data/Html 5.png" alt="html-logo">
+            <h4 class="title-text">HTML</h4>
+          </div>
+
+          <div class="element">
+            <img class="logo" src="data/CSS3.png" alt="css-logo">
+            <h4 class="title-text">CSS</h4>
+          </div>
+
+          <div class="element">
+            <img class="logo" src="data/JavaScript.png" alt="html-logo">
+            <h4 class="title-text">JavaScript</h4>
+          </div>
+        </div>
+      </center>
+
+      <h2 class="skill-title">Databases</h2>
+      <center>
+        <div class="content-element">
+          <div class="element">
+            <img class="logo" src="data/SQLite.png" alt="SQLite-logo">
+            <h4 class="title-text">SQLite</h4>
+          </div>
+
+          <div class="element">
+            <img class="logo" src="data/MySQL Logo.png" alt="mysql-logo">
+            <h4 class="title-text">MySQL</h4>
+          </div>
+
+          <div class="element">
+            <img class="logo" src="data/Database.png" alt="Oracle-logo">
+            <h4 class="title-text">Oracle</h4>
+          </div>
+        </div>
+      </center>
+
+      <h2 class="skill-title">Software Tools</h2>
+      <center>
+        <div class="content-element">
+          <div class="element">
+            <img class="logo" src="data/Office 365.png" alt="msoffice-logo">
+            <h4 class="title-text">MS Office</h4>
+          </div>
+
+          <div class="element">
+            <img class="logo" src="data/Figma.png" alt="figma-logo">
+            <h4 class="title-text">Figma</h4>
+          </div>
+
+          <div class="element">
+            <img class="logo" src="data/Power Bi 2021.png" alt="powerbi-logo">
+            <h4 class="title-text">Power BI</h4>
+          </div>
+          <div class="element">
+            <img class="logo" src="data/GitHub.png" alt="github-logo">
+            <h4 class="title-text">GitHub</h4>
+          </div>
+        </div>
+      </center>
+      <h2 class="skill-title">Operating Systems</h2>
+      <center>
+        <div class="content-element">
+          <div class="element">
+            <img class="logo" src="data/Windows 10.png" alt="windows-logo">
+            <h4 class="title-text">Windows</h4>
+          </div>
+
+          <div class="element">
+            <img class="logo" src="data/Linux.png" alt="linux-logo">
+            <h4 class="title-text">Linux</h4>
+          </div>
+      </center>
+    </div>
+    <marquee class="desktop" behavior="alternate">&copy; Designed and Developed By<span style="color: #d5abfc">Dhinesh kumar</span></marquee>
+    <marquee class="phone">&copy; Designed and Developed By <span style="color:#d5abfc;">Dhinesh kumar</span></marquee>
+
+    <script>
+      // scripts.js
+      document.getElementById('menu-toggle').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.toggle('show');
+      });
+
+      document.getElementById('close-btn').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.remove('show');
+      });
+
+      document.getElementById('content').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.remove('show');
+      });
+
+    </script>
+  </body>
+</html>

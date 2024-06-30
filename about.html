@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="icon" href="data/boy.png" />
+  </head>
+  <body>
+    <nav class="header">
+      <div class="tab">
+          <button class="menu-toggle" id="menu-toggle">☰</button>
+          <h1 class="heading">Portfolio</h1>
+          <div class="nav-links" id="nav-links">
+              <button class="close-btn" id="close-btn">&times;</button>
+              <ul>
+                  <li class="ta"><a href="index.html">Home</a></li>
+                  <li class="ta"><a href="about.html">About</a></li>
+                  <li class="ta"><a href="skills.html">Skills</a></li>
+                  <li class="ta"><a href="projects.html">Projects</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <center>
+      <div class="about">
+        <p>
+          &emsp;&emsp;&emsp;Aspiring Data Scientist with a strong foundation in
+          computer programming and web development, dedicated to exploring and
+          mastering the field of data science. My journey is driven by a passion
+          for data analysis and a keen interest in unlocking the transformative
+          potential of machine learning. With a solid technical background, I am
+          adept at developing innovative solutions and translating complex data
+          into actionable insights. Committed to continuous learning and
+          professional development, I thrive in dynamic environments where I can
+          contribute to impactful projects and collaborate with cross-functional
+          teams. My goal is to leverage my skills and knowledge to drive
+          data-driven decision-making and contribute to the advancement of
+          technology in meaningful ways.
+        </p>
+      </div>
+    </center>
+
+    <div class="education">
+      <p class="head">Education:</p>
+      <p class="elements" style="font-weight: bold">
+        Vellore Institute of Technology
+      </p>
+      <p class="elements" style="font-style: italic; font-weight: lighter">
+        Bachelor's Degree Computer Science
+      </p>
+      <p class="elements" style="color: gray; font-weight: bold">
+        June 2023 - June 2027
+      </p>
+      <p class="elements" style="font-weight: bold">Grade : 9.49 CGPA</p>
+
+      <p class="elements" style="margin-top: 20px; font-weight: bold">
+        Sri Narayani Vidyashram(CBSE)
+      </p>
+      <p class="elements" style="font-style: italic; font-weight: lighter">
+        12th, Mathematics and Computer Science
+      </p>
+      <p class="elements" style="color: gray; font-weight: bold">
+        March 2022 - March 2023
+      </p>
+      <p class="elements" style="font-weight: bold">Grade : 83.6%</p>
+    </div>
+
+
+    <div class="course">
+      <h2 class="head">Course Work:</h2>
+      <ul>
+        <li style="font-weight: lighter" class="elements">
+          Programming in Python
+        </li>
+        <li style="font-weight: lighter" class="elements">Programming in C</li>
+        <li style="font-weight: lighter" class="elements">
+          Object Oriented Programming
+        </li>
+        <li style="font-weight: lighter" class="elements">
+          Data Structures and Algorithms
+        </li>
+        <li style="font-weight: lighter" class="elements">
+          Database Management Systems
+        </li>
+        <li style="font-weight: lighter" class="elements">
+          Software Engineering
+        </li>
+        <li style="font-weight: lighter" class="elements">
+          Computer Architecture
+        </li>
+      </ul>
+    </div>
+
+    <div class="achievements">
+      <h2 class="head">Achievements</h2>
+      <ul>
+        <li style="font-weight: lighter" class="elements">
+          Secured 3rd Place in Python Hackthon
+        </li>
+        <li style="font-weight: lighter" class="elements">
+          Presented an IEEE Conference Paper on Modelling Agriculture Productivity
+          and Spotting Diseases.
+        </li>
+        <li style="font-weight: lighter" class="elements">
+          Received Merit Scholarship from VIT for Academic excellence during my
+          first year.
+        </li>
+        <li style="font-weight: lighter" class="elements">
+          Received Cent Percent Attendence Scholarship from VIT during my first
+          year.
+        </li>
+      </ul>
+    </div>
+
+    <marquee class="desktop" behavior="alternate"
+      >&copy; Designed and Developed By
+      <span style="color: #d5abfc">Dhinesh kumar</span></marquee
+    >
+    <marquee class="phone">&copy; Designed and Developed By <span style="color:#d5abfc;">Dhinesh kumar</span></marquee>
+    <script>
+      // scripts.js
+      document.getElementById('menu-toggle').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.toggle('show');
+      });
+
+      document.getElementById('close-btn').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.remove('show');
+      });
+
+      document.getElementById('content').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.remove('show');
+      });
+
+    </script>
+  </body>
+</html>
