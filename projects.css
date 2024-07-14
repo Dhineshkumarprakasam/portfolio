@@ -41,7 +41,7 @@ button {
 .heading {
     font-family: "Kreon", serif;
     font-weight: bolder;
-    color: #d5abfc;
+    color:#65E665;
     margin-left: 20px;
 }
 
@@ -92,7 +92,7 @@ li:hover {
 }
 
 li:hover a {
-    color: #d5abfc;
+    color:#65E665;
 }
 
 li::after {
@@ -100,7 +100,7 @@ li::after {
     display: block;
     width: 0;
     height: 3px;
-    background: #d5abfc;
+    background:#65E665;
     transition: width 0.3s;
     position: absolute;
     bottom: -5px;
@@ -154,11 +154,11 @@ marquee {
     position: relative;
     width: 450px;
     height: 520px;
-    background-color: #f2f2f2;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: #333 solid 1px;
+    border: #65E665 solid 3px;
     margin-bottom: 50px;
   }
 
@@ -175,37 +175,37 @@ marquee {
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #f2f2f2;
+    background-color:black;
   }
    
   .card__title {
     margin-top: 20px;
     font-size: 22px;
-    color: #333;
+    color:white;
     font-weight: 700;
   }
   
   .card__description {
     margin: 10px 0 10px;
     font-size: 16px;
-    color: #777;
+    color:white;
     line-height: 1.4;
   }
   
   .card__button {
     padding: 15px;
     border-radius: 8px;
-    background: #777;
+    background:#65E665;
     border: none;
-    color: white;
+    color:black;
     width: fit-content;
     margin: 20px 5px 5px 5px;
   }
   
   .secondary {
     background: transparent;
-    color: #777;
-    border: 1px solid #777;
+    color:#65E665;
+    border: 1px solid#65E665;
     margin: 20px 5px 5px 5px;
   }
 .card-img
@@ -282,7 +282,7 @@ marquee {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: #333 solid 1px;
+        border: #65E665 solid 3px;
         margin-bottom: 50px;
       }
 

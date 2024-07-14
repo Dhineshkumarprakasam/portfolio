@@ -41,7 +41,7 @@ button {
 .heading {
     font-family: "Kreon", serif;
     font-weight: bolder;
-    color: #d5abfc;
+    color:#65E665;
     margin-left: 20px;
 }
 
@@ -92,7 +92,7 @@ li:hover {
 }
 
 li:hover a {
-    color: #d5abfc;
+    color:#65E665;
 }
 
 li::after {
@@ -100,7 +100,7 @@ li::after {
     display: block;
     width: 0;
     height: 3px;
-    background: #d5abfc;
+    background:#65E665;
     transition: width 0.3s;
     position: absolute;
     bottom: -5px;
@@ -146,13 +146,13 @@ body {
 }
 .title-text
 {
-    color:#923BE8;
+    color:#65E665;
     font-family: Cambria;
 }
 
 .element
 {
-    background-color:cornsilk;
+    background-color:black;
     padding: 20px 0px 20px 0px;
     text-align: center;
     width:200px;

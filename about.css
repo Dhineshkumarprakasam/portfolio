@@ -45,7 +45,7 @@ button {
 .heading {
     font-family: "Kreon", serif;
     font-weight: bolder;
-    color: #d5abfc;
+    color:#65E665;
     margin-left: 20px;
 }
 
@@ -96,7 +96,7 @@ a {
 }
 
 .ta:hover a {
-    color: #d5abfc;
+    color:#65E665;
 }
 
 .ta::after {
@@ -104,7 +104,7 @@ a {
     display: block;
     width: 0;
     height: 3px;
-    background: #d5abfc;
+    background:#65E665;
     transition: width 0.3s;
     position: absolute;
     bottom: -5px;
@@ -156,7 +156,7 @@ a {
 }
 
 .head {
-    color: #923BE8;
+    color:#35d335;
     margin-bottom: 2%;
     font-size: x-large;
     font-weight: bold;
@@ -231,7 +231,7 @@ marquee {
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) and (orientation: portrait) {
     .head {
-        color: #923BE8;
+        color:#65E665;
         margin-bottom: 2%;
     }
 

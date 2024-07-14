@@ -46,7 +46,7 @@ button {
 .heading {
   font-family: "Kreon", serif;
   font-weight: bolder;
-  color: #d5abfc;
+  color: #65E665;
   margin-left: 20px;
 }
 
@@ -97,7 +97,7 @@ li:hover {
 }
 
 li:hover a {
-  color: #d5abfc;
+  color:#65E665;
 }
 
 li::after {
@@ -105,7 +105,7 @@ li::after {
   display: block;
   width: 0;
   height: 3px;
-  background: #d5abfc;
+  background:#65E665;
   transition: width 0.3s;
   position: absolute;
   bottom: -5px;
@@ -157,7 +157,7 @@ img {
 .l3-b {
   font-size: 45px;
   font-weight: lighter;
-  color: #923BE8;
+  color:#35d335;
 }
 
 .profile {
@@ -174,9 +174,9 @@ img {
   padding: 10px 22px;
   border-radius: 6px;
   border: none;
-  color: black;
+  color:black;
   cursor: pointer;
-  background-color: #d6aeff;
+  background-color:#65E665;
   transition: all 0.2s ease;
   margin-top: 15%;
   font-family: Cambria;
