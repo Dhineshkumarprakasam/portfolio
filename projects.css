@@ -43,6 +43,7 @@ button {
     font-weight: bolder;
     color:#65E665;
     margin-left: 20px;
+    flex-shrink: 5;
 }
 
 .tab {
@@ -64,6 +65,7 @@ button {
 .nav-links {
     display: flex;
     align-items: center;
+    flex-shrink: 2;
 }
 
 ul {

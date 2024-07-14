@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="data/boy.png">
+    <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+    <nav class="header">
+        <div class="tab">
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <h1 class="heading">Portfolio</h1>
+            <div class="nav-links" id="nav-links">
+                <button class="close-btn" id="close-btn">&times;</button>
+                <ul>
+                    <li class="ta"><a href="index.html">Home</a></li>
+                    <li class="ta"><a href="about.html">About</a></li>
+                    <li class="ta"><a href="skills.html">Skills</a></li>
+                    <li class="ta"><a href="projects.html">Projects</a></li>
+                    <li class="ta"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <embed class="responsive-embed" src="https://docs.google.com/forms/d/e/1FAIpQLSeRCencBdBpS6WVv9O5cUwkSVRpbZjzOyEcw2alV06JQl3Ngw/viewform?embedded=true" type="text/html">
+
+    <script>
+         document.getElementById('menu-toggle').addEventListener('click', function() {
+          document.getElementById('nav-links').classList.toggle('show');
+        });
+
+        document.getElementById('close-btn').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.remove('show');
+        });
+
+        document.getElementById('content').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.remove('show');
+        });
+        function resizeEmbed(embed) {
+            embed.style.height = embed.contentWindow.document.body.scrollHeight + 'px';
+        }
+
+        const embed = document.querySelector('.responsive-embed');
+        embed.onload = function() {
+            resizeEmbed(embed);
+        }
+
+        // Add an event listener to resize the embed when the window is resized
+        window.addEventListener('resize', function() {
+            resizeEmbed(embed);
+        });
+    </script>
+</body>
+</html>
