@@ -143,6 +143,7 @@ a {
     vertical-align: center;
     margin: 5%;
     margin-bottom: 10px;
+    padding-bottom: 30px;
 
 }
 
@@ -151,6 +152,7 @@ a {
     width: 70%;
     margin-left: 10%;
     margin-top:30px;
+    padding-bottom: 30px;
 }
 
 .education .elements {
@@ -175,6 +177,7 @@ a {
     width: 70%;
     margin-left: 10%;
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .course ul {
@@ -192,7 +195,7 @@ a {
     width: 70%;
     margin-left: 10%;
     margin-top: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
 }
 
 .achievements ul {
@@ -215,22 +218,14 @@ body {
     bottom: 0;
     min-height: 100%;
 }
-
-marquee {
-    background-color:black;
-    color: white;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    font-weight: bolder;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
-.phone
+.c-link
 {
-    display: none;
+    font-size: 15px;
+    color:blue;
+    text-decoration: underline;
+    margin-right: 20px;
 }
+
 @media only screen and (min-width: 600px) and (max-width: 768px) and (orientation: portrait) {
     .head {
         color:#65E665;
@@ -309,13 +304,5 @@ marquee {
     .details-list
     {
         font-size: small;
-    }
-    .phone
-    {
-        display: block;
-    }
-    .desktop
-    {
-        display: none;
     }
 }

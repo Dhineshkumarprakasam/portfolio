@@ -167,19 +167,7 @@ body {
     justify-content: center;
     margin-top: 20px;
 }
-marquee {
-    background-color: black;
-    color: white;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    font-weight: bolder;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.phone{
-    display: none;
-}
+
 .close-btn
 {
     display: none;
@@ -193,14 +181,6 @@ marquee {
     {
         width: 150px;
         margin: 0px;
-    }
-    .desktop
-    {
-        display: none;
-    }
-    .phone
-    {
-        display: block;
     }
     .menu-toggle {
         display: block;

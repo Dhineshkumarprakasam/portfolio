@@ -124,18 +124,6 @@ body {
     min-height: 100%;
 }
 
-marquee {
-    background-color: black;
-    color: white;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    font-weight: bolder;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .close-btn {
     display: none;
 }
@@ -149,7 +137,7 @@ marquee {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 30px;
 }
 .card {
@@ -268,14 +256,6 @@ marquee {
         z-index: 0;
     }
 
-    .desktop {
-        display: none;
-    }
-
-    .phone {
-        display: block;
-    }
-
     .card {
         position: relative;
         width: 300px;
@@ -301,4 +281,15 @@ marquee {
     {
         font-size: 15px;    
     }
+}
+
+.project-title
+{
+    font-family: Cambria;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
