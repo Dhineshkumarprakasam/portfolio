@@ -165,7 +165,12 @@ a {
     font-size: x-large;
     font-weight: bold;
 }
-
+.mypara
+{
+    margin-left: 2%;
+    margin-top: 0.5%;
+    font-size: larger;
+}
 .elements {
     margin-left: 10%;
     margin-top: 0.5%;
